@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        model-viewer {
+            display: inline-block;
+            width: 50%;
+            height: 800px;
+        }
+        .teste{
+            margin: 5px 5px 5px 5px;
+            border: 5px solid black;
+        }
+        h1{
+            all: unset;
+            padding: 8px;
+            font-size: 3em;
+        }
+        p{
+            all: unset;
+            display: inline-block;
+            vertical-align: top;
+            width: 45%;
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="teste">
+        <h1>R$80.000,00</h1>
+        <hr>
+        <model-viewer src="Terra.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate> </model-viewer>
+        <p>O Honda Accord 2021 é um sedan de luxo que oferece um excelente equilíbrio entre desempenho, conforto e tecnologia. Ele possui um motor potente e eficiente, com opções de motorização turbo e híbrida. O modelo destaca-se pelo design sofisticado, interior de alta qualidade e uma variedade de recursos de segurança e assistências ao motorista através do sistema Honda SENSING™. Além disso, o Accord 2021 é equipado com conectividade moderna, incluindo integração com Apple CarPlay e Android Auto. É uma escolha ideal para quem busca um carro elegante, seguro e tecnológico.</p>
+    </div>
+
+    <!-- Import the component -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+</body>
+</html>
